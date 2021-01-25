@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HW1"
+             x:Class="HW1.MainPage"
+             x:Name="MainContentPage">
+
+    <StackLayout>
+        <Picker x:Name="ProductPicker" SelectedIndexChanged="ProductPicker_SelectedIndexChanged" SelectedItem="0" BackgroundColor="BlueViolet"/>
+
+        <ScrollView VerticalOptions="FillAndExpand" BackgroundColor="White">
+            <!-- REDO -->
+            <StackLayout x:Name="NoName" VerticalOptions="FillAndExpand">
+                <Frame BackgroundColor="White" HeightRequest="250">
+                    <Image x:Name="ProductImage" BackgroundColor="White" Source="" />
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Editor x:Name="AmountProduct" TextChanged="AmountProduct_TextChanged"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="White" Keyboard="Numeric" />
+                    <Stepper x:Name="StepperProduct" ValueChanged="StepperProduct_ValueChanged" Minimum="0"
+                             Maximum="100" />
+                </StackLayout>
+                <Label x:Name="DescriptionLabel" Text="Description" HorizontalOptions="Center" FontSize="18" />
+            </StackLayout>
+        </ScrollView>
+
+        <BoxView x:Name="gradBox" ScaleX="4" AnchorX="1" AnchorY="0">
+            <BoxView.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#12c2e9" Offset="0.25"/>
+                    <GradientStop Color="#c471ed" Offset="0.5"/>
+                    <GradientStop Color="#f12711" Offset="0.75"/>
+                    <GradientStop Color="#f5af19" Offset="1.0"/>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+
+        <StackLayout Orientation="Horizontal">
+            <Button VerticalOptions="End" Text="Order" Clicked="Order_Clicked"
+                    HorizontalOptions="FillAndExpand" FontFamily="myFont">
+            </Button>
+            <Button Text="Cart" Clicked="Cart_Clicked" />
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

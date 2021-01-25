@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\HW1\HW1\HW1\bin\Debug\netstandard2.0\HW1.deps.json
+C:\Users\User\source\repos\HW1\HW1\HW1\bin\Debug\netstandard2.0\HW1.dll
+C:\Users\User\source\repos\HW1\HW1\HW1\bin\Debug\netstandard2.0\ref\HW1.dll
+C:\Users\User\source\repos\HW1\HW1\HW1\bin\Debug\netstandard2.0\HW1.pdb
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.csprojAssemblyReference.cache
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.AssemblyInfo.cs
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.dll
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\ref\HW1.dll
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.pdb
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\Cart.xaml.g.cs
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\HW1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HW1\HW1\HW1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\HW1\HW1\HW1\bin\Debug\netstandard2.0\myFont.ttf

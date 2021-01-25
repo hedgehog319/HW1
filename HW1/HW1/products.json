@@ -1,0 +1,5 @@
+﻿[
+	{"Name":"Watter","PicPath":"watter.jpg","Description":"Бутылка воды"},
+	{"Name":"Chocolate","PicPath":"chocolate.jpg","Description":"Плитка шоколада"},
+	{"Name":"Ice cream","PicPath":"ice_cream.jpg","Description":"Пломбир"}
+]
